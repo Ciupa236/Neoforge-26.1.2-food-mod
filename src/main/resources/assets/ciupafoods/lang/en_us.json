@@ -1,0 +1,13 @@
+{
+  "itemGroup.ciupafoods": "Example Mod Tab",
+  "block.ciupafoods.example_block": "Example Block",
+  "item.ciupafoods.example_item": "Example Item",
+
+  "ciupafoods.configuration.title": "Ciupa's Yummies Configs",
+  "ciupafoods.configuration.section.ciupafoods.common.toml": "Ciupa's Yummies Configs",
+  "ciupafoods.configuration.section.ciupafoods.common.toml.title": "Ciupa's Yummies Configs",
+  "ciupafoods.configuration.items": "Item List",
+  "ciupafoods.configuration.logDirtBlock": "Log Dirt Block",
+  "ciupafoods.configuration.magicNumberIntroduction": "Magic Number Text",
+  "ciupafoods.configuration.magicNumber": "Magic Number"
+}
