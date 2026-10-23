@@ -1,4 +1,5 @@
 {
-  "item.ciupafoods.flour": "Flour",
-  "item.ciupafoods.dough": "Dough"
+  "item.ciupafoods.wheat_flour": "Wheat Flour",
+  "item.ciupafoods.dough": "Dough",
+  "item.ciupafoods.salt": "Salt"
 }
