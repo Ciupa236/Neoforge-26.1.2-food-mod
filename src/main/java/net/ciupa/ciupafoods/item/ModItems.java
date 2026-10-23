@@ -1,0 +1,19 @@
+package net.ciupa.ciupafoods.item;
+
+import net.ciupa.ciupafoods.CiupasYummies;
+import net.minecraft.world.item.Item;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.registries.DeferredItem;
+import net.neoforged.neoforge.registries.DeferredRegister;
+
+public class ModItems {
+    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(CiupasYummies.MOD_ID);
+
+    public static final DeferredItem<Item> FLOUR = ITEMS.registerSimpleItem("flour");
+    public static final DeferredItem<Item> DOUGH = ITEMS.registerSimpleItem("dough");
+
+    public static void register(IEventBus eventBus) {
+        ITEMS.register(eventBus);
+    }
+
+}
