@@ -1,5 +1,7 @@
 package net.ciupa.ciupafoods;
 
+import net.ciupa.ciupafoods.block.ModBlocks;
+import net.ciupa.ciupafoods.creativemodtab.ModCreativeModeTabs;
 import net.ciupa.ciupafoods.item.ModItems;
 import org.slf4j.Logger;
 
@@ -32,7 +34,10 @@ public class CiupasYummies {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         NeoForge.EVENT_BUS.register(this);
         // Register the item to a creative tab
@@ -51,6 +56,10 @@ public class CiupasYummies {
             event.accept(ModItems.WHEAT_FLOUR);
             event.accept(ModItems.DOUGH);
             event.accept(ModItems.SALT);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.SALT_CUBE);
         }
     }
 

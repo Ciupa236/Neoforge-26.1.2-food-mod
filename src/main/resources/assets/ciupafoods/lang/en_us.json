@@ -1,5 +1,10 @@
 {
   "item.ciupafoods.wheat_flour": "Wheat Flour",
   "item.ciupafoods.dough": "Dough",
-  "item.ciupafoods.salt": "Salt"
+  "item.ciupafoods.salt": "Salt",
+
+  "block.ciupafoods.salt_cube": "Salt Cube",
+
+  "creativemodetab.ciupafoods.cooking_ingredients": "Cooking Ingredients",
+  "creativemodetab.ciupafoods.food_blocks": "Food Blocks"
 }

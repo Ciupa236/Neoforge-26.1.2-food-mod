@@ -1,6 +1,7 @@
 package net.ciupa.ciupafoods.datagen;
 
 import net.ciupa.ciupafoods.CiupasYummies;
+import net.ciupa.ciupafoods.block.ModBlocks;
 import net.ciupa.ciupafoods.item.ModItems;
 import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
@@ -15,10 +16,13 @@ public class ModModelProvider extends ModelProvider {
 
     @Override
     protected void registerModels(BlockModelGenerators blockModels, ItemModelGenerators itemModels) {
+        /* Items */
+
         itemModels.generateFlatItem(ModItems.WHEAT_FLOUR.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(ModItems.DOUGH.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(ModItems.SALT.get(), ModelTemplates.FLAT_ITEM);
 
-
+        /* Blocks */
+        blockModels.createTrivialCube(ModBlocks.SALT_CUBE.get());
     }
 }
