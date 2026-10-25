@@ -17,7 +17,8 @@ public class ModBlocks {
             DeferredRegister.createBlocks(CiupasYummies.MOD_ID);
 
     public static final DeferredBlock<Block> SALT_CUBE = registerBlock("salt_cube",
-            properties -> new Block(properties.strength(2f)
+            properties -> new Block(properties
+                    .strength(0.6f)
                     .sound(SoundType.SAND)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Function<BlockBehaviour.Properties, T> function) {
