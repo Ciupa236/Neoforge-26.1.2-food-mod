@@ -12,7 +12,7 @@ public class ModItems {
 
     public static final DeferredItem<Item> WHEAT_FLOUR = ITEMS.registerSimpleItem("wheat_flour");
     public static final DeferredItem<Item> DOUGH = ITEMS.registerSimpleItem("dough",
-            properties -> new Item.Properties().craftRemainder(Items.BUCKET));
+            () -> new Item.Properties().craftRemainder(Items.BUCKET));
     public static final DeferredItem<Item> SALT = ITEMS.registerSimpleItem("salt");
 
     public static void register(IEventBus eventBus) {
