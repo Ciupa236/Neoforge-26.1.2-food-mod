@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "flour",
+  "ingredients": [
+    "minecraft:water_bucket",
+    "ciupafoods:wheat_flour",
+    "ciupafoods:salt"
+  ],
+  "result": {
+    "id": "ciupafoods:dough"
+  }
+}
