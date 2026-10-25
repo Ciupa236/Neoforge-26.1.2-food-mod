@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "flour",
+  "key": {
+    "S": "minecraft:cobblestone",
+    "W": "minecraft:wheat"
+  },
+  "pattern": [
+    "S",
+    "W",
+    "S"
+  ],
+  "result": {
+    "id": "ciupafoods:wheat_flour"
+  }
+}
